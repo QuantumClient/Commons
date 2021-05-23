@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.quantumclient'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+
+test {
+    useJUnitPlatform()
+}
