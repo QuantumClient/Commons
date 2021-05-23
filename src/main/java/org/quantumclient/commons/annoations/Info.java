@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Info {
 
-    String[] value();
+    String value();
 
     String description() default "";
 
