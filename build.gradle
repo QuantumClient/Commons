@@ -26,8 +26,10 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 publishing {
     publications {
         mavenJava(MavenPublication) {
+            groupId = group
+            artifactId = 'Commons'
+
             from components.java
-            artifactId = jar.archiveBaseName
         }
     }
 
