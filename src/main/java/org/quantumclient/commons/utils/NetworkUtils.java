@@ -17,8 +17,8 @@ public class NetworkUtils {
         try (Socket s = new Socket(ip, port)) {
             return true;
         } catch (IOException ex) {
+            return false;
         }
-        return false;
     }
 
     public static boolean isServerOnline(String domain, int port) {
