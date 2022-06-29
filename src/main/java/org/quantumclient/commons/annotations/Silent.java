@@ -1,5 +1,4 @@
-package org.quantumclient.commons.annoations;
-
+package org.quantumclient.commons.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,12 +7,5 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Info {
-
-    String value();
-
-    String description() default "";
-
-    int bind() default -1;
-
+public @interface Silent {
 }
