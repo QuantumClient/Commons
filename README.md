@@ -10,6 +10,6 @@ repositories {
        maven { url 'https://maven.quantumclient.org/snapshots' }
 }
 dependencies { 
-    implementation 'org.quantumclient:Commons:VERISON'
+    implementation 'org.quantumclient:Commons:VERSION'
 }
-```
+````
